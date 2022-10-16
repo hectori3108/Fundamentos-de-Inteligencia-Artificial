@@ -1,0 +1,3 @@
+
+lista([]).
+lisa([_|X]):-lista(X).

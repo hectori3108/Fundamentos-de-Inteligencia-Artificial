@@ -1,0 +1,1 @@
+miembro(X,Y) :- append(X, [Y,_

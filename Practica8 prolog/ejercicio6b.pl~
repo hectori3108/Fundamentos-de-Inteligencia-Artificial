@@ -1,0 +1,1 @@
+borra(X, [Z|_], Y) :- append(X, Y, Z).

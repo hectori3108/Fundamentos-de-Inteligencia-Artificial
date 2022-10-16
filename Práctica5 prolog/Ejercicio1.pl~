@@ -1,0 +1,8 @@
+enseña(X, Y).
+inteligente(X).
+mujerde(X,Y).
+asigde(X,Y).
+inteligente(X) :- enseña(X, informatica).
+enseña(mujerde(X, juan), ia).
+asigde(alg, matematicas).
+asigde(ia, informatica).

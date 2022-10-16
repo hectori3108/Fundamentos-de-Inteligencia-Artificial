@@ -1,0 +1,22 @@
+precio(Roma, 200).
+precio(Londres, 250).
+precio(Túnez, 150).
+
+precioxnoche(Hotel, Roma, 250).
+precioxnoche(Hotel, Londres, 150).
+precioxnoche(Hotel, Túnez, 100).
+precioxnoche(Hostal, Roma, 150).
+precioxnoche(Hostal, Londres, 100).
+precioxnoche(Hostal, Túnez, 80).
+precioxnoche(Camping, Roma, 100).
+precioxnoche(Camping, Londres, 50).
+precioxnoche(Camping, Túnez, 50).
+
+viaje(X, Z, N, P) :- precio(X,P1), precioxnoche(Z,X,P2), P is P1 + P2*N.
+
+
+
+
+
+
+
